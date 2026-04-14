@@ -1,0 +1,10 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+sqlalchemy==2.0.40
+pydantic==2.10.3
+jinja2==3.1.4
+requests==2.32.3
+beautifulsoup4==4.12.3
+weasyprint==62.3
+# wapiti3 has incompatible typing-extensions deps (==4.12.0) vs pydantic (>=4.12.2)
+# Install manually if needed: pip install wapiti3==3.2.4 --no-deps
